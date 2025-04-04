@@ -1,9 +1,26 @@
 nav {
     background-color: purple;
+    height: 20px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+ul li {
+    list-style: none;
+    color: wheat;
+    font-size: bold;
+    
+
+}
+
+ul li:hover {
+    color: red;
+    scale: 1.1;
+    font-family: sans-serif;
+    
 }
